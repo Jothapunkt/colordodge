@@ -1,0 +1,35 @@
+.add-button {
+	position: fixed;
+	top: 2vw;
+	left: 2vw;
+	width: 6vw;
+	height: 6vw;
+	border-radius: 50%;
+	background-color: #666666;
+	color: white;
+	text-align: center;
+	line-height: 6vw;
+	font-size: 4em;
+	transition: 0.5s;
+	cursor: pointer;
+}
+
+.add-button:hover {
+	transition: 0.5s;
+	background-color: #ff9900;
+}
+
+.close-button {
+	transform: rotate(135deg);
+	background-color: crimson;
+}
+
+.close-button:hover {
+	background-color: crimson;
+	transform: rotate(135deg);
+}
+
+.canvas {
+	background-color: #333333;
+	cursor: none;
+}
